@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart, .npm-logo, .magnifying-glass {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .search {
+    background-color: #FB3B49;
+  }
+
+  h1 {
+    padding: 50px;
+    font-size: 60px;
+  }
+
+  .plans {
+    height: 600px;
+    text-align: center;
+    background-color: rgba(232,217,217,.3)
+  }
+
+  .plans p {
+    margin: 0px 420px 60px;
+  }
+
+  .see-plans {
+    background-color: #FB3B49;
+    text-decoration: none;
+  }
+
+  .join-for-free {
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2)
+  }
+
+  .bring {
+    height: 350px;
+    text-align: center;
+  }
+
+  .bring img {
+    padding: 15px;
+    height: 60px;
+    align-items: center;
+  }
+
+  h2 {
+    background-color: rgba(255,204,53,.4);
+    margin: 60px 300px 60px;
+  }
+
+  .bring p {
+    margin: 0 320px
+  }
+
+  .create {
+    text-align: center;
+  }
+
+  .create img {
+    height: 15px;
+  }
+
+  .create h3 {
+    color: #ED1C24;
+    border: brown;
+  }
+
+  .create button {
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2)
+  }
